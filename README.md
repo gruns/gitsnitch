@@ -5,10 +5,11 @@
 # GitSnitch
 
 `gitsnitch` is a simple tool that finds and prints a GitHub user's email
-address(es). Give `gitsnitch` a GitHub username or profile URL, like
-gruns or https://github.com/gruns, and it finds and prints that user's
-email addresses by examining the commits across that user's GitHub
-repos.
+address(es).
+
+Give `gitsnitch` a GitHub username or profile URL, like gruns or
+https://github.com/gruns, and it finds and prints that user's email
+addresses by examining the commits across that user's GitHub repos.
 
 This gitsnitch repo is private, and not (yet) published to PyPi, because
 GitHub likely doesn't want this type of tool to be public nor
