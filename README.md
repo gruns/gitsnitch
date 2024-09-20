@@ -57,11 +57,7 @@ accessed without an API token at a low rate limit. However, if you
 encounter API limits, eg
 
 ```python
-Exception: Error fetching repositories: {"message":"API rate limit
-exceeded for xxx.xxx.xxx.xxx. (But here's the good news:
-Authenticated requests get a higher rate limit. Check out the
-documentation for more details.)", "documentation_url":
-"https://docs.github.com/rest/..."}
+Exception: Error fetching repositories: {"message":"API rate limit exceeded for xxx.xxx.xxx.xxx. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)", "documentation_url": "https://docs.github.com/rest/..."}
 ```
 
 you'll need to create an API token and add it your environment. To
