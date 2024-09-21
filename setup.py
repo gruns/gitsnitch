@@ -17,7 +17,7 @@ import sys
 from os.path import dirname, join as pjoin
 from setuptools import setup, find_packages, Command
 
-from __version__ import __version__ as VERSION
+from gitsnitch.__version__ import __version__ as VERSION
 
 
 class Publish(Command):
@@ -31,7 +31,7 @@ class Publish(Command):
         pass
 
     def run(self):
-        os.system('python setup.py sdist bdist_wheel')
+        os.system('python3 setup.py sdist bdist_wheel')
 
         sdist = 'dist/gitsnitch-%s.tar.gz' % VERSION
         wheel = 'dist/gitsnitch-%s-py2.py3-none-any.whl' % VERSION
@@ -73,11 +73,13 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     entry_points={
-        'console_scripts': ['gitsnitch=gitsnitch:main'],
+        'console_scripts': ['gitsnitch=gitsnitch.cli:main'],
     },
     install_requires=[
+        'furl>=2.1.3',
         'docopt>=0.6.2',
-        'dulwich>=0.19.6',
+        'requests>=2.7.0',
+        'icecream>=2.1.3',
     ],
     cmdclass={
         'publish': Publish,

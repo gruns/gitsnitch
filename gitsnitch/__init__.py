@@ -11,10 +11,11 @@
 # License: MIT
 #
 
-__title__ = 'gitsnitch'
-__version__ = '1.0'
-__license__ = 'MIT'
-__author__ = 'Ansgar Grunseid'
-__contact__ = 'grunseid@gmail.com'
-__url__ = 'https://github.com/gruns/gitsnitch'
-__description__ = "A simple tool that finds a GitHub user's email address(es)"
+from gitsnitch.__version__ import (
+    __title__,
+    __version__,
+    __license__,
+    __author__,
+    __contact__,
+    __url__,
+    __description__)
