@@ -9,12 +9,7 @@ address(es).
 
 Give `gitsnitch` a GitHub username or profile URL, like gruns or
 https://github.com/gruns, and it finds and prints that user's email
-addresses by examining the commits across that user's GitHub repos.
-
-This gitsnitch repo is private, and not (yet) published to PyPi, because
-GitHub likely doesn't want this type of tool to be public nor
-notorious. That is, they almost certainly don't want developer's emails
-to be easily exfiltrated from GitHub. Doubly so via their API.
+address(es) by examining the commits across that user's GitHub repos.
 
 ### Usage
 
@@ -85,18 +80,8 @@ Then re-run `gitsnitch` as normal. Boom.
 
 ### Installation
 
-`gitsnitch` isn't (yet) in PyPi. Instead, to install:
+Installing GitSnitch with pip is easy.
 
-  1. Install `gitsnitch`'s dependencies
-
-  ```shell
-  $ pip3 install requests furl docopt icecream
-  ```
-
-  2. Download [gitsnitch](./gitsnitch) from this repo.
-
-  3. Make it execuable with `chmod +x gitsnitch`.
-
-  4. Add `gitsnitch` to your path.
-
-Voila. Enjoy snitching. 🕵️
+```
+$ pip3 install gitsnitch
+```
