@@ -7,11 +7,11 @@
 `gitsnitch` is a simple tool that finds and prints a GitHub user's email
 address(es).
 
-Give `gitsnitch` a GitHub username or profile URL, like gruns or
+Give `gitsnitch` a GitHub username or profile URL, like `gruns` or
 https://github.com/gruns, and it finds and prints that user's email
 address(es) by examining the commits across that user's GitHub repos.
 
-### Usage
+### How GitSnitch Works
 
 To use, provide `gitsnitch` with a GitHub username or profile URL and
 let it go to work. `gitsnitch` will, in turn:
