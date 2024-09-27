@@ -49,7 +49,7 @@ That's it. Simple.
 By default, this script does not need a GitHub API token because GitHub
 API endpoints, like https://api.github.com/users/gruns/repos, can be
 accessed without an API token at a low rate limit. However, if you
-encounter API limits, eg
+encounter API rate limits, like
 
 ```python
 Exception: Error fetching repositories: {"message":"API rate limit exceeded for xxx.xxx.xxx.xxx. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)", "documentation_url": "https://docs.github.com/rest/..."}
