@@ -9,7 +9,7 @@ address(es).
 
 Give `gitsnitch` a GitHub username or profile URL, like `gruns` or
 https://github.com/gruns, and it finds and prints that user's email
-address(es) by examining the commits across that user's GitHub repos.
+addresses by examining commits across their GitHub repos.
 
 ### How GitSnitch Works
 
@@ -58,14 +58,14 @@ Exception: Error fetching repositories: {"message":"API rate limit exceeded for 
 you'll need to create an API token and add it your environment. To
 create an API token for `gitsnitch`:
 
-   1. Go to https://github.com/ and log in to your account.
-   2. Click on your profile picture (top-right corner) and go to 'Settings'.
-   3. Click 'Developer settings' in the left-hand sidebar.
-   4. Under 'Developer settings', click 'Personal access
-      tokens'->'Tokens (classic)'.
-   5. Click 'Generate new token'. Then select at least 'read:user' and
-      'user:email' under 'user'.
-   6. Click 'Generate token'.
+   1. Head to https://github.com/ and log in to your account.
+   2. Open your profile picture in the top-right corner and click `Settings`.
+   3. Click `Developer settings` in the left-hand sidebar.
+   4. Under `Developer settings`, click `Personal access
+      tokens`->`Tokens (classic)`.
+   5. Click `Generate new token`. Then select at least `read:user` and
+      `user:email` under `user`.
+   6. Click `Generate token`.
    7. Copy the generated token. Be sure to save it; you won't be able
       to view it again.
 
@@ -75,7 +75,7 @@ Then add this token to your environment with
 export GITHUB_TOKEN=<your_api_token>
 ```
 
-Then re-run `gitsnitch` as normal. Boom.
+Finally, re-run `gitsnitch` as normal. Boom.
 
 
 ### Installation
