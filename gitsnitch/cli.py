@@ -190,8 +190,12 @@ def main():
             print()
 
 
-if __name__ == '__main__':
+def cliEntry():
     try:
         main()
     except KeyboardInterrupt:
         pass
+
+
+if __name__ == '__main__':
+    cliEntry()
