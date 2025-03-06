@@ -12,9 +12,9 @@
 #
 
 __title__ = 'gitsnitch'
-__version__ = '1.0.2'
+__version__ = '1.0.3'
 __license__ = 'MIT'
 __author__ = 'Ansgar Grunseid'
 __contact__ = 'grunseid@gmail.com'
 __url__ = 'https://github.com/gruns/gitsnitch'
-__description__ = "A simple tool that finds a GitHub user's email address(es)"
+__description__ = "A simple tool that finds a GitHub user's email addresses"
