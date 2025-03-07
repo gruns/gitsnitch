@@ -12,7 +12,7 @@
 #
 
 __title__ = 'gitsnitch'
-__version__ = '1.0.3'
+__version__ = '1.0.4'
 __license__ = 'MIT'
 __author__ = 'Ansgar Grunseid'
 __contact__ = 'grunseid@gmail.com'
