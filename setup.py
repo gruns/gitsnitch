@@ -70,7 +70,7 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     entry_points={
-        'console_scripts': ['gitsnitch=gitsnitch.cli:main'],
+        'console_scripts': ['gitsnitch=gitsnitch.cli:cliEntry'],
     },
     install_requires=[
         'furl>=2.1.3',
